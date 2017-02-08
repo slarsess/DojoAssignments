@@ -1,0 +1,83 @@
+Stevens-MBP:desktop stevenlarsen$ cd DojoAssignments/
+Stevens-MBP:DojoAssignments stevenlarsen$ ls
+MEAN		Ruby		assignments.txt	netCore
+Python		WebFundamentals	iOS		new_project
+Stevens-MBP:DojoAssignments stevenlarsen$ git init
+Initialized empty Git repository in /Users/stevenlarsen/Desktop/DojoAssignments/.git/
+Stevens-MBP:DojoAssignments stevenlarsen$ git remote add origin https://github.com/slarsess/DojoAssignments.git
+Stevens-MBP:DojoAssignments stevenlarsen$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/slarsess/DojoAssignments.git'
+Stevens-MBP:DojoAssignments stevenlarsen$ git push -u origin master
+error: src refspec master does not match any.
+error: failed to push some refs to 'https://github.com/slarsess/DojoAssignments.git'
+Stevens-MBP:DojoAssignments stevenlarsen$ git add .
+Stevens-MBP:DojoAssignments stevenlarsen$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   .DS_Store
+	new file:   MEAN/about.txt
+	new file:   Python/about.txt
+	new file:   Ruby/about.txt
+	new file:   WebFundamentals/CSS/about.txt
+	new file:   WebFundamentals/Git/about.txt
+	new file:   WebFundamentals/HTML/about.txt
+	new file:   WebFundamentals/HTML/indentation.html
+	new file:   WebFundamentals/Javascript/about.txt
+	new file:   WebFundamentals/about.txt
+	new file:   assignments.txt
+	new file:   iOS/about.txt
+	new file:   netCore/about.txt
+	new file:   new_project
+
+Stevens-MBP:DojoAssignments stevenlarsen$ git commit -m "first attempt at github upload"
+[master (root-commit) a313cd8] first attempt at github upload
+ 14 files changed, 35 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 MEAN/about.txt
+ create mode 100644 Python/about.txt
+ create mode 100644 Ruby/about.txt
+ create mode 100644 WebFundamentals/CSS/about.txt
+ create mode 100644 WebFundamentals/Git/about.txt
+ create mode 100644 WebFundamentals/HTML/about.txt
+ create mode 100644 WebFundamentals/HTML/indentation.html
+ create mode 100644 WebFundamentals/Javascript/about.txt
+ create mode 100644 WebFundamentals/about.txt
+ create mode 100644 assignments.txt
+ create mode 100644 iOS/about.txt
+ create mode 100644 netCore/about.txt
+ create mode 160000 new_project
+Stevens-MBP:DojoAssignments stevenlarsen$ git status
+On branch master
+nothing to commit, working tree clean
+Stevens-MBP:DojoAssignments stevenlarsen$ git push -u origin master
+Username for 'https://github.com': slarsess
+Password for 'https://slarsess@github.com': 
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/slarsess/DojoAssignments.git/'
+Stevens-MBP:DojoAssignments stevenlarsen$ git push -u origin master
+Username for 'https://github.com': slarsess
+Password for 'https://slarsess@github.com': 
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (8/8), 1.34 KiB | 0 bytes/s, done.
+Total 8 (delta 0), reused 0 (delta 0)
+To https://github.com/slarsess/DojoAssignments.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Stevens-MBP:DojoAssignments stevenlarsen$ touch readme.md
+Stevens-MBP:DojoAssignments stevenlarsen$ open readme.md
+Stevens-MBP:DojoAssignments stevenlarsen$ git add .
+Stevens-MBP:DojoAssignments stevenlarsen$ git commit -m "includes description of folder contents"
+[master 7962e5e] includes description of folder contents
+ 1 file changed, 22 insertions(+)
+ create mode 100644 readme.md
+Stevens-MBP:DojoAssignments stevenlarsen$ touch DojoAssignmentRepo.txt
+Stevens-MBP:DojoAssignments stevenlarsen$ open DojoAssignmentRepo.txt 
+Stevens-MBP:DojoAssignments stevenlarsen$
