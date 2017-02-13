@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf"
+    <meta charset="utf-8">
     <title>"Registration Form Exercise"</title>
     <meta name="description"</meta>
   </head>
@@ -37,7 +37,7 @@
       <input type="radio" id="female" value="female">
 
       <label for="other">Other</label>
-      <input for="radio" id="other" value="other">
+      <input type="radio" id="other" value="other">
 
       <p>A short description about yourself</p>
       <textarea name="description"></textarea>
@@ -49,6 +49,8 @@
 
       <p>Click the button below to submit your registration</p>
       <input type="submit" value="Submit">
+
+
 
 
 

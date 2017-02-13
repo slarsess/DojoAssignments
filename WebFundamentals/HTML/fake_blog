@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <tile>My Fake Blog</title>
+    <meta name="description" content="Fake blog for coding class to learn HTML">
+  </head>
+
+
+
+  <body>
+    <div>
+      <h1>Steven R Larsen</h1>
+
+      <p>Lorem ipsum dolor sit amet</p>
+
+    </div>
+    <div>
+      <h2>What I've been up to...</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Age</th>
+            <th>Location</th>
+            <th>Occupation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>20</td>
+            <td>Ft Stewart, Georgia</td>
+            <td>Combat Infantryman</td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>Mosul, Iraq</td>
+            <td>Combat Infantryman</td>
+          </tr>
+          <tr>
+            <td>40</td>
+            <td>Reno, Nevada</td>
+            <td>Federal Employee</td>
+          </tr>
+      </table>
+          <h3>What are my favorite movies?</h3>
+          <ul>
+            <li>Casablanca</li>
+            <li>The Godfather</li>
+            <li>Star Wars</li>
+          </ul>
+          <h4>I also like boardgames...</h4>
+          <p>Here are some of my favorites (click the link to learn more)</p>
+          <ol>
+            <li><a href="https://boardgamegeek.com/boardgame/157354/five-tribes">Five Tribes</a></li>
+            <li><a href="https://boardgamegeek.com/boardgame/102794/caverna-cave-farmers">Caverna</a></li>
+          </ol>
+        </div>
+        <div>
+          <form>
+            <h1>Please give me your email so I can spam your inbox</h1>
+
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+
+            <label for="yes">Yes, please send me junk mail</label>
+            <input type="radio" id="yes" value="yes">
+
+            <label for="no">No, keep your junk mail to yourself!</label>
+            <input type="radio" id="no" value="no">
+
+            <h1>STOP! Who would cross the Bridge of Death must answer me these questions three, ere the other side he see.</h1>
+            <p>What is your name?</p>
+            <<textarea name="description"></textarea>
+
+            <p>What is your favorite color?</p>
+            <select name="favorite_color">
+              <option value="red">Red</option>
+              <option value="blue">Blue</option>
+              <option value="yellow">Blue...No! Yellow!</option>
+            </select>
+
+
+
+            <p>What is the average airspeed velocity of an unladen swallow?</p>
+            <label for="dunno">I don't know that</label>
+            <input type="radio" id="dunno" value="dunno">
+
+            <label for="african">What do you mean? African or European?</label>
+            <input type="radio" id="african" value="african">
+
+            <p>Click the button below to join the quest for the Holy Grail</p>
+            <input type="submit" value="Submit">
+          </form>
+
+          </div>
+
+  </body>
+
+
+</html>
