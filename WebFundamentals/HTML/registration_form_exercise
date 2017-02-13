@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf"
+    <title>"Registration Form Exercise"</title>
+    <meta name="description"</meta>
+  </head>
+
+  <body>
+    <form>
+      <h1>My Registration Form</h1>
+
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name">
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name">
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email">
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+
+      <label for="password confirm">Confirm Password:</label>
+      <input type="password"  id="password" name="password">
+
+      <p>Enter Your Birthday</p>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="date" name="date">
+
+      <p>Select Your Gender</p>
+      <label for="male">Male</label>
+      <input type="radio" id="male" value="male">
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" value="female">
+
+      <label for="other">Other</label>
+      <input for="radio" id="other" value="other">
+
+      <p>A short description about yourself</p>
+      <textarea name="description"></textarea>
+
+      <p>What is your favorite language?</p>
+      <select name="favorite_language">
+        <option value="javascript">Javascript</option>
+        <option value="html">HTML</option>
+
+      <p>Click the button below to submit your registration</p>
+      <input type="submit" value="Submit">
+
+
+
+
+    </form>
+
+
+
+  </body>
+
+
+</html>
